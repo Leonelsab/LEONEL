@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #00bcd4; /* Color celeste */
+
+}
+
+/* El resto de tus estilos se mantiene igual */
+
+header {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+}
+
+/* El resto de tus estilos se mantienen igual */
+
+  .logo {
+    font-size: 3em;
+    color: #ffffff;
+    user-select: none;
+}
+
+.navigation a {
+    font-size: 2em;
+    position: relative;
+    font-size: 1.1em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #e80000;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.navigation .bthLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #000000;;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #000000;;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navigation .bthLogin-popup:hover {
+    background:#000000;;
+    color: #162938;
+}
+
+.container1 {
+    width: 900px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 9px;
+    font-family: 'calibri';
+    font-size: 1.1em;
+    margin-left: 90px;
+    
+    
+}
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .e3_38 { 
+    border-radius:500px;
+    width:107px;
+    height:103px;
+    position:absolute;
+    left:20px;
+    top:12px;
+    background-image:url(images/ellipse_2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+
+  .e3_22 { 
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.6000000238418579);
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:1135px;
+    top:346px;
+    border-top-left-radius:35px;
+    border-top-right-radius:35px;
+    border-bottom-left-radius:35px;
+    border-bottom-right-radius:35px;
+    background-image:url(images/rectangle_3.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .e3_29 { 
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.6000000238418579);
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:1000px;
+    top:500x;
+    border-top-left-radius:35px;
+    border-top-right-radius:35px;
+    border-bottom-left-radius:35px;
+    border-bottom-right-radius:35px;
+    background-image:url(images/rectangle_1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  .e3_21 { 
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.6000000238418579);
+    width:198px;
+    height:198px;
+    position:absolute;
+    left:1203px;
+    top:501px;
+    border-top-left-radius:35px;
+    border-top-right-radius:35px;
+    border-bottom-left-radius:35px;
+    border-bottom-right-radius:35px;
+    background-image:url(images/rectangle_2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  
+
+
+
+
+

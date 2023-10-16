@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asesoramiento para Agricultura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Asesoramiento para Agricultura</h1>
+        <div class="tabs">
+            <div class="tab" id="empresasTab">Empresas</div>
+            <div class="tab" id="agronomosTab">Agrónomos</div>
+        </div>
+        <div id="empresasContent" class="content"></div>
+        <div id="agronomosContent" class="content"></div>
+        <div class="comments-section">
+            <h2>Comentarios y Sugerencias</h2>
+            <textarea id="commentInput" placeholder="Escribe tu comentario o sugerencia..."></textarea>
+            <button id="submitComment">Enviar</button>
+            <div id="comments"></div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Asesoramiento de Cultivos</h1>
+        <label for="cultivo">Seleccione un cultivo:</label>
+        <select id="cultivo">
+            <option value="maiz">Maíz</option>
+            <option value="trigo">Trigo</option>
+            <option value="arroz">Arroz</option>
+        </select>
+        <button id="obtenerConsejo">Obtener Asesoramiento</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

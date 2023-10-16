@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #00bcd4; /* Color celeste */
+}
+
+/* El resto de tus estilos se mantiene igual */
+.container {
+    width: 400px;
+    background: #afa38b9e;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 9px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3ea827;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: center;
+    color: #000000;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 20px;
+}

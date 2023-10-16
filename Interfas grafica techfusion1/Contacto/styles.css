@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00bcd4; /* Color celeste */
+}
+
+
+.container {
+    text-align: center;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tab {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+
+.tab:hover {
+    background-color: #89b2db;
+}
+
+.content {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.comments-section {
+  
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+textarea {
+    
+    background-color: #b39d759a;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.comment {
+    
+    margin-bottom: 10px;
+}
